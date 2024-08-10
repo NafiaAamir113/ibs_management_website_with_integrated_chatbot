@@ -1,0 +1,153 @@
+.bg-green {
+    background-color: #a2c11c;
+}
+.top-bar {
+    padding: 6px 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+.email-left{
+   font-size: 0.8em;
+}
+.icons-right{
+   font-size: 0.8em;
+}
+
+.top-bar a:hover {
+    color: black !important;
+}
+
+.ibs {
+    color: #a2c11c;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navi{
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link {
+    color: black !important;
+    /* font-size:medium; */
+}
+
+.nav-link:hover {
+    color: #a2c11c !important;
+}
+
+.dropdown-menu a:hover{
+    background-color: #a2c11c;
+}
+/* Article */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f900;
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #a2c11c;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Article Header */
+  
+  .article-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .article-subtitle {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /*Content */
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-top: 7px;
+   font-family:Georgia, 'Times New Roman', Times, serif; 
+  }
+
+  section p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .img-fluid {
+    height: auto;
+    margin: 20px 0;
+    max-width: 50px;
+    max-height: 300px;
+    border-radius:10px;
+  }
+ 
+  /* Sidebar */
+  
+  .sidebar {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .sidebar img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+     max-width: 900px; /*simg size */
+  }
+  
+  .sidebar p {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar .btn-primary {
+    background-color: #a2c11c;
+    border-color: #a2c11c;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .sidebar .btn-primary:hover {
+    background-color: #a2c11c;
+    border: #a2c11c;
+  }
+  /* text */
+  .text p{
+    color:#333;;
+    background-color:#a2c11c;
+    font-size: 20px;
+    margin-top:15px;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  /* Footer */
+  .company-name {
+    color: #a2c11c;
+    font-size:22px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .icons:hover{
+    color:#a2c11c;
+  }
+ 

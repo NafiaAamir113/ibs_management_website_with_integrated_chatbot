@@ -1,0 +1,137 @@
+.bg-green {
+    background-color: #a2c11c;
+}
+.top-bar {
+    padding: 6px 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+.email-left{
+   font-size: 0.8em;
+}
+.icons-right{
+   font-size: 0.8em;
+}
+
+.top-bar a:hover {
+    color: black !important;
+}
+
+.ibs {
+    color: #a2c11c;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navi{
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link {
+    color: black !important;
+    /* font-size:medium; */
+}
+
+.nav-link:hover {
+    color: #a2c11c !important;
+}
+
+.dropdown-menu a:hover{
+    background-color: #a2c11c;
+}
+
+/* Cards */
+@media screen and (orientation :landscape) {
+    .carousel img{
+        max-height:100vh;
+    }
+    
+}
+.bg-light{
+    border-radius: 5px;
+  
+}
+.bg-light:hover{
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.342);
+}
+
+/* Working Cards */
+
+.text h1 {
+  margin-top: 30px;
+  color: #a2c11c;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; 
+}
+
+.text p{
+  color:black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; 
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center;
+  padding: 30px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.158);
+  border-color: #a2c11c;
+  border-radius: bold; 
+}
+
+.card h4 {
+  color: #a2c11c;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size:18px;
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+  /* About */
+  #about{
+    margin-top:80px;
+    margin-bottom:50px;
+  }
+  #about h4{
+    color:#a2c11c;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+  }
+  #about p{
+    font-size:18px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  /* Footer */
+  .company-name {
+    color: #a2c11c;
+    font-size:22px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .icons:hover{
+    color:#a2c11c;
+  } 
